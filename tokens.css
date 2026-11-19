@@ -1,0 +1,26 @@
+/* 川流百卅 Web 设计令牌 V1.0 | 参考《文创排版(1).pdf》色彩与视觉语汇。不是印刷色精准取样。 */
+:root {
+  --color-primary: #8B2927;      /* 校庆绛红：品牌、主要按钮 */
+  --color-primary-hover: #67201F;
+  --color-gold: #C49A5A;         /* 旧金色：细线、卡片点缀 */
+  --color-paper: #F8F2E7;        /* 宣纸米白 */
+  --color-surface: #FFFBF4;      /* 内容卡片 */
+  --color-text: #342824;         /* 深墨色 */
+  --color-text-muted: #77665C;
+  --color-border: #E5D8C5;
+  --color-wangjiang: #A54237;
+  --color-huaxi: #D2A24F;
+  --color-jiangan: #426C88;
+  --font-display: 'Noto Serif SC', 'Source Han Serif SC', 'Songti SC', serif;
+  --font-body: 'Noto Sans SC', 'Source Han Sans SC', 'Microsoft Yahei', sans-serif;
+  --font-h1: 40px; --font-h2: 28px; --font-h3: 20px;
+  --font-body-size: 16px; --font-caption: 12px;
+  --line-height-body: 1.65;
+  --radius-card: 16px; --radius-button: 10px; --radius-field: 10px; --radius-modal: 20px;
+  --space-1: 4px; --space-2: 8px; --space-3: 12px; --space-4: 16px;
+  --space-6: 24px; --space-8: 32px; --space-12: 48px; --space-16: 64px;
+  --container-width: 1160px; --form-width: 760px; --control-height: 48px;
+  --motion-fast: 160ms; --motion-normal: 240ms;
+}
+@media (max-width: 767px) { :root { --font-h1: 28px; --font-h2: 22px; --font-h3: 18px; } }
+@media (prefers-reduced-motion: reduce) { *, *::before, *::after { transition-duration: 0.01ms !important; animation-duration: 0.01ms !important; } }

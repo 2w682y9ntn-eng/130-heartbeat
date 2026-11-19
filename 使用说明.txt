@@ -1,0 +1,10 @@
+这是可直接上传GitHub的网页版本，和玉林Citywalk的上传方式相同。
+
+1. 打开本文件夹，全选里面的内容上传到GitHub。
+2. 不要把整个外层文件夹套着上传，也不需要再上传原项目的dist目录。
+3. 仓库根目录应直接有index.html、app.js、assets等。
+4. 只想保存代码：上传完成即可；现有公开网页继续可用。
+5. 想同时使用GitHub网页托管：Settings → Pages → Deploy from a branch → main → /(root) → Save。
+6. 本地体验双击index.html；不要单独移动index.html。
+
+本文件夹已去除开发目录中的本机绝对来源路径，不含.git、.openai、临时文件或部署凭证。
